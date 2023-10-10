@@ -60,6 +60,7 @@ public class Main {
 
 
 
+
         System.out.println("Задача 6");
 
         int total = 102;

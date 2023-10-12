@@ -80,15 +80,15 @@ public class Main {
         System.out.println("Задача 7");
         int one = 1;
         int two = 2;
-        int three = 3;
-        if (one > two) {
+        int three = 5;
+        if (one > two && one > three) {
 
-            System.out.println("Наибольшие число one");
+            System.out.println("Наибольшие число " + one );
 
-        } else if (two > three) {
-            System.out.println("Наибольшие число two");
+        } else if (two > one && two > three) {
+            System.out.println("Наибольшие число " + two);
         } else
-            System.out.println("Наибольшие число three");
+            System.out.println("Наибольшие число " + three);
 
     }
 }

@@ -11,6 +11,7 @@ public class Main {
         }
 
 
+
         System.out.println("Задача2");
 
         double temp = 3.0;
